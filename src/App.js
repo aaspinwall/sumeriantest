@@ -5,9 +5,14 @@ import styled from "styled-components";
 function App() {
   return (
     <Wrapper className='App'>
-      <a href='https://us-east-1.sumerian.aws/e72a46f648b44037a3212b12deabd7f8.scene'>
-        Click here to experience AR
-      </a>
+      <div>
+        <a href='https://us-east-1.sumerian.aws/e72a46f648b44037a3212b12deabd7f8.scene'>
+          Scan the cat and watch it come to life
+        </a>
+        <a href='https://us-east-1.sumerian.aws/697c103ffb0e4bf78ea8a859bb46155f.scene'>
+          Hockey Player
+        </a>
+      </div>
 
       {/* <iframe
         width='100%'
@@ -25,6 +30,10 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  a {
+    display: block;
+    padding-bottom: 2rem;
+  }
 `;
 
 export default App;
